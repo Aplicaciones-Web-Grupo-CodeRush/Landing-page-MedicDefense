@@ -342,7 +342,6 @@ textarea{
     border: 2px solid #F29979;
     background-color: #F29979;
 }
-
 @media screen and (max-width: 880px){
 	.contact-box{
 		grid-template-columns: 1fr;
@@ -351,3 +350,62 @@ textarea{
 		height: 200px;
 	}
 }
+
+/* Creators */
+
+.content-creator {
+  background-color: #F29979;
+}
+h1.title {
+  text-align: center;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+.listCreator {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 80px;
+  justify-items: center;
+}
+.imageCreator img {
+  height: 204px;
+  width: 204px;
+  transition: 0.3s ease;
+}
+.imageCreator p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  text-align: center;
+}
+.imageCreator img:hover {
+  width: 250px;
+  height: 250px;
+  transition: 0.3s ease;
+}
+
+/* Footer */
+
+.footer p {
+  background-color: #222020;
+  color: white;
+  padding: 30px;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 1100px){
+  .listCreator {
+      grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media screen and (max-width: 880px){
+  .listCreator {
+      grid-template-columns: unset;
+  }
+}
+
+
