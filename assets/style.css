@@ -176,9 +176,12 @@ body {
 }
 
 .nosotros h2{
-    color: rgb(0, 0, 0);
-    font-size: 50px;
     text-align: center;
+  font-size: 2em;
+  color: #000000;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .nosotros-cards{
@@ -198,7 +201,7 @@ body {
     gap: 20px;
 }
 
-.nosotros-card-img {
+.nosotros-card img {
     height: 200px;
     padding: 10px;
 }
@@ -212,6 +215,60 @@ body {
     margin-bottom: 5%;
     text-align: center;
     font-weight: 1000;
+}
+
+.servicios {
+    display: grid;
+    grid-template-rows: 2fr 5fr;
+    grid-template-columns: 1fr;
+    background-color: #F29979;
+    }
+
+.servicios h2 {
+	text-align: center;
+  font-size: 2em;
+  color: #000000;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+	
+}
+.servicios-cards {
+    height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.servicios-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios-card img {
+    height: 200px;
+    padding: 0.5%;
+}
+
+.servicios-card h3 {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 10%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.servicios-card p {
+    color: rgb(0, 0, 0);
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
 }
 
 .contenedor-planes-texto {
