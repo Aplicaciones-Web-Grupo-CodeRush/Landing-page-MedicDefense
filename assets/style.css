@@ -149,7 +149,7 @@ body {
 
 .inicio {
   height: 500px;
-  background-image: url("/assets/img/background.png");
+  background-image: url("../assets/img/background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -169,14 +169,14 @@ body {
 /* #####Servicios##### */
 
 .nosotros {
-    display: grid;
-    grid-template-rows: 2fr 5fr;
-    grid-template-columns: 1fr;
-    background-color: #F2C6AC;
+  display: grid;
+  grid-template-rows: 2fr 5fr;
+  grid-template-columns: 1fr;
+  background-color: #f2c6ac;
 }
 
-.nosotros h2{
-    text-align: center;
+.nosotros h2 {
+  text-align: center;
   font-size: 2em;
   color: #000000;
   margin-bottom: 25px;
@@ -184,91 +184,90 @@ body {
   letter-spacing: 1px;
 }
 
-.nosotros-cards{
-    height: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.nosotros-cards {
+  height: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .nosotros-card {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .nosotros-card img {
-    height: 200px;
-    padding: 10px;
+  height: 200px;
+  padding: 10px;
 }
 
 .nosotros p {
-    color: rgb(0, 0, 0);
-    width: 70%;
-    height: 50%;
-    margin: 0 auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    text-align: center;
-    font-weight: 1000;
+  color: rgb(0, 0, 0);
+  width: 70%;
+  height: 50%;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-weight: 1000;
 }
 
 .servicios {
-    display: grid;
-    grid-template-rows: 2fr 5fr;
-    grid-template-columns: 1fr;
-    background-color: #F29979;
-    }
+  display: grid;
+  grid-template-rows: 2fr 5fr;
+  grid-template-columns: 1fr;
+  background-color: #f29979;
+}
 
 .servicios h2 {
-	text-align: center;
+  text-align: center;
   font-size: 2em;
   color: #000000;
   margin-bottom: 25px;
   text-transform: uppercase;
   letter-spacing: 1px;
-	
 }
 .servicios-cards {
-    height: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  height: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .servicios-card {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .servicios-card img {
-    height: 200px;
-    padding: 0.5%;
+  height: 200px;
+  padding: 0.5%;
 }
 
 .servicios-card h3 {
-    color: rgb(0, 0, 0);
-    width: 100%;
-    height: 10%;
-    margin: 0 auto;
-    text-align: center;
-    font-weight: 1000;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 10%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 1000;
 }
 
 .servicios-card p {
-    color: rgb(0, 0, 0);
-    width: 70%;
-    height: 50%;
-    margin: 0 auto;
-    margin-top: 5%;
-    text-align: center;
+  color: rgb(0, 0, 0);
+  width: 70%;
+  height: 50%;
+  margin: 0 auto;
+  margin-top: 5%;
+  text-align: center;
 }
 
 .contenedor-planes-texto {
@@ -293,26 +292,25 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
-  background-color: #A67360;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #a67360;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .plan {
   flex: 1 0 20%;
-  border-radius: 30px; 
+  border-radius: 30px;
   padding: 20px;
   margin: 0 10px;
-  background-color: #F2EFDC;
-  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.2);
+  background-color: #f2efdc;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
   text-align: center;
 }
 
 .plan:hover {
   transform: scale(1.05);
-  box-shadow: 0px 15px 30px -10px rgba(0,0,0,0.2);
+  box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.2);
 }
-
 
 .plan h3 {
   color: #000000;
@@ -345,119 +343,119 @@ body {
   transition: background 0.3s ease;
 }
 
-.contact{
-	position: relative;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 20px 100px;
+.contact {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
 }
 
-.contact:after{
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
-	background-color:#F2C6AC;
-	background-size: cover;
-	filter: blur(50px); 
-	z-index: -1;
+.contact:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #f2c6ac;
+  background-size: cover;
+  filter: blur(50px);
+  z-index: -1;
 }
-.contact-box{
-	max-width: 850px;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	background-color: #fff;
-	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
-}
-
-.left{
-	background: url("/assets/img/contacto-icon.jpg") no-repeat center;
-	background-size: cover;
-	height: 100%;
+.contact-box {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
 }
 
-.right{
-	padding: 25px 40px;
+.left {
+  background: url("../assets/img/contacto-icon.jpg") no-repeat center;
+  background-size: cover;
+  height: 100%;
 }
 
-h4{
-	position: relative;
-	padding: 0 0 10px;
-	margin-bottom: 10px;
+.right {
+  padding: 25px 40px;
 }
 
-h4:after{
-	content: '';
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 50px;
-    border-radius: 2px;
-    background-color: #F29979;
+h4 {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
 }
 
-.field{
-	width: 100%;
-	border: 2px solid rgba(0, 0, 0, 0);
-	outline: none;
-	background-color: rgba(230, 230, 230, 0.6);
-	padding: 0.5rem 1rem;
-	font-size: 1.1rem;
-	margin-bottom: 22px;
-	transition: .3s;
+h4:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background-color: #f29979;
 }
 
-.field:hover{
-	background-color: #F29979;
+.field {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
 }
 
-textarea{
-	min-height: 150px;
+.field:hover {
+  background-color: #f29979;
 }
 
-.bton{
-	width: 100%;
-	padding: 0.5rem 1rem;
-	background-color: #F29979;
-	color: #fff;
-	font-size: 1.1rem;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	transition: .3s;
+textarea {
+  min-height: 150px;
 }
 
-.bton:hover{
-    background-color: #F29979;
+.bton {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #f29979;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.field:focus{
-    border: 2px solid #F29979;
-    background-color: #F29979;
+.bton:hover {
+  background-color: #f29979;
 }
-@media screen and (max-width: 880px){
-	.contact-box{
-		grid-template-columns: 1fr;
-	}
-	.left{
-		height: 200px;
-	}
+
+.field:focus {
+  border: 2px solid #f29979;
+  background-color: #f29979;
+}
+@media screen and (max-width: 880px) {
+  .contact-box {
+    grid-template-columns: 1fr;
+  }
+  .left {
+    height: 200px;
+  }
 }
 
 /* Creators */
 
 .content-creator {
-  background-color: #F29979;
+  background-color: #f29979;
 }
 h1.title {
   text-align: center;
@@ -499,16 +497,14 @@ h1.title {
   text-align: center;
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1100px) {
   .listCreator {
-      grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media screen and (max-width: 880px){
+@media screen and (max-width: 880px) {
   .listCreator {
-      grid-template-columns: unset;
+    grid-template-columns: unset;
   }
 }
-
-
