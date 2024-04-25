@@ -5,34 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MedicDefense</title>
     <link rel="stylesheet" href="assets/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
       <div class="logo">
-        <img src="/assets/img/Logo.png" alt="logo" />
+        <img src="assets/img/Logo.png" alt="logo" />
       </div>
       <nav>
         <ul class="nav-links">
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Planes</a></li>
-          <li><a href="#">Creadores</a></li>
+          <li><a href="#" id="nosotros">Nosotros</a></li>
+          <li><a href="#" id="servicios">Servicios</a></li>
+          <li><a href="#" id="planes">Planes</a></li>
+          <li><a href="#" id="creadores">Creadores</a></li>
         </ul>
       </nav>
-      <a class="btn" href="#"><button>Contactanos</button></a>
+      <a class="btn" href="#" id="contacto"><button>Contactanos</button></a>
       <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
 
       <div class="overlay" id="mobile-menu">
         <a onclick="closeNav()" class="close" href="#">&times;</a>
         <div class="overlay-content">
-          <a href="#">Nosotros</a>
-          <a href="#">Servicios</a>
-          <a href="#">Planes</a>
-          <a href="#">Creadores</a>
-          <a href="#">Contactanos</a>
+          <a href="#" id="nosotros2">Nosotros</a>
+          <a href="#" id="servicios2">Servicios</a>
+          <a href="#" id="planes2">Planes</a>
+          <a href="#" id="creadores2">Creadores</a>
+          <a href="#" id="contacto2">Contactanos</a>
         </div>
       </div>
     </header>
@@ -42,119 +45,138 @@
       </div>
     </div>
     <!-- Información -->
-    <div class="nosotros">
-            <h2>Nosotros</h2>
-            <div class="nosotros-cards">
-                <div class="nosotros-card">
-                    <img src="assets/img/Nosotros1.png" alt="Persona trabajando desde su computadora.">
-                </div>
-                <div class="nosotros-card">
-                    <img src="assets/Nosotros2.png" alt="Médicos posando al frente.">
-                </div>
-            </div>
-            <p>
-                Somos una empresa independiente formada por 5 estudiantes de la Universidad Peruana de Ciencias Aplicadas, que a creado una aplicación web que permite a los profesionales médicos a tener fácil acceso a estos recursos legales en la forma de abogados médicos.
-            </p>
+    <div class="nosotros" id="nosotros-section">
+      <h2>Nosotros</h2>
+      <div class="nosotros-cards">
+        <div class="nosotros-card">
+          <img
+            src="assets/img/Nosotros1.png"
+            alt="Persona trabajando desde su computadora."
+          />
         </div>
-    <div class="servicios">
-            <h2>Nuestros Servicios</h2>
-            <div class="servicios-cards">
-                <div class="servicios-card">
-                    <img src="assets/NuestrosServicios1.png" alt="Abogados">
-                    <h3>
-                        Para abogados:
-                    </h3>
-                    <p>
-                        Trabajar con nosotros para ayudar con duversas funciones que ofrecemos en nuestro aplicativo.
-                    </p>
-                </div>
-                <div class="servicios-card">
-                    <img src="assets/NuestrosServicios2.png" alt="Médicos">
-                    <h3>
-                        Para médicos:
-                    </h3>
-                    <p>
-                        Recibir ayuda legal de parte de algunos de nuestros abogados especializados en la medicina.
-                    </p>
-                </div>
-                <div class="servicios-card">
-                    <img src="./assets/NuestrosServicios3.png" alt="Usuarios">
-                    <h3>
-                        Para todos:
-                    </h3>
-                    <p>
-                        Con una suscripción recibiras tips y consejos sobre la Medicina legal con la ayuda de nuestros abogados.
-                    </p>
-                </div>
-            </div>
+        <div class="nosotros-card">
+          <img
+            src="assets/img/Nosotros2.png"
+            alt="Médicos posando al frente."
+          />
         </div>
-    <!-- Servicios Planes -->
-    <div class="servicios-planes">
-      <div class = "contenedor-planes-texto">
-          <h2>Nuestros servicios</h2>
       </div>
-      <div class="plan">
-          <h3>Ayuda Legal</h3>
-          <p>Para médicos que buscan asistencia legal especializada de parte de nuestros abogados expertos en medicina legal.
-          Este grupo incluye a profesionales médicos de diversas especialidades, desde médicos generales hasta cirujanos y especialistas en áreas específicas como la obstetricia, 
-          la oncologia o la neurologia.
+      <p>
+        Somos una empresa independiente formada por 5 estudiantes de la
+        Universidad Peruana de Ciencias Aplicadas, que a creado una aplicación
+        web que permite a los profesionales médicos a tener fácil acceso a estos
+        recursos legales en la forma de abogados médicos.
+      </p>
+    </div>
+    <!-- Servicios -->
+    <div class="servicios" id="servicios-section">
+      <h2>Nuestros Servicios</h2>
+      <div class="servicios-cards">
+        <div class="servicios-card">
+          <img src="assets/img/NuestrosServicios1.png" alt="Abogados" />
+          <h3>Para abogados:</h3>
+          <p>
+            Trabajar con nosotros para ayudar con duversas funciones que
+            ofrecemos en nuestro aplicativo.
           </p>
-          <img src="assets/img/ayuda-legal.png" alt="Ayuda Legal">
-          <button>Más Información</button>
+        </div>
+        <div class="servicios-card">
+          <img src="assets/img/NuestrosServicios2.png" alt="Médicos" />
+          <h3>Para médicos:</h3>
+          <p>
+            Recibir ayuda legal de parte de algunos de nuestros abogados
+            especializados en la medicina.
+          </p>
+        </div>
+        <div class="servicios-card">
+          <img src="assets/img/NuestrosServicios3.png" alt="Usuarios" />
+          <h3>Para todos:</h3>
+          <p>
+            Con una suscripción recibiras tips y consejos sobre la Medicina
+            legal con la ayuda de nuestros abogados.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Servicios Planes -->
+    <div class="servicios-planes" id="planes-section">
+      <div class="contenedor-planes-texto">
+        <h2>Nuestros Planes</h2>
       </div>
       <div class="plan">
-          <h3>Suscripcion Mensual</h3>
-          <p>Para aquellos interesados en adquirir nuestras suscripciones, ofrecemos acceso exclusivo a consultas y asesorias especializadass en el ámbito de la medicina. 
-          Además, nuestro servicio proporciona una amplia gama de recursos adicionales para garantizar una experiencia completa y satisfactoria.  </p>
-          <img src="assets/img/suscripcion-mensual.jpg" alt="Suscripción Mensual">
-          <button>Más información</button>
+        <h3>Ayuda Legal</h3>
+        <p>
+          Para médicos que buscan asistencia legal especializada de parte de
+          nuestros abogados expertos en medicina legal. Este grupo incluye a
+          profesionales médicos de diversas especialidades, desde médicos
+          generales hasta cirujanos y especialistas en áreas específicas como la
+          obstetricia, la oncologia o la neurologia.
+        </p>
+        <img src="assets/img/ayuda-legal.png" alt="Ayuda Legal" />
+        <button>Más Información</button>
       </div>
-  </div>
-  <div class="contact">
-    <div class="contact-box">
-      <div class="left"></div>
-      <div class="right">
-        <form>
-          <h2>Contactanos</h2>
-          <input type="text" class="field" placeholder="Nombre:" />
-          <input type="text" class="field" placeholder="Apellido:" />
-          <input type="text" class="field" placeholder="Telefono:" />
-          <input type="email" class="field" placeholder="Correo:" />
-          <textarea placeholder="Mensaje" class="field"></textarea>
-          <button class="bton">Send</button>
-        </form>
+      <div class="plan">
+        <h3>Suscripcion Mensual</h3>
+        <p>
+          Para aquellos interesados en adquirir nuestras suscripciones,
+          ofrecemos acceso exclusivo a consultas y asesorias especializadass en
+          el ámbito de la medicina. Además, nuestro servicio proporciona una
+          amplia gama de recursos adicionales para garantizar una experiencia
+          completa y satisfactoria.
+        </p>
+        <img
+          src="assets/img/suscripcion-mensual.jpg"
+          alt="Suscripción Mensual"
+        />
+        <button>Más información</button>
       </div>
     </div>
-  </div>
-
-  <!-- Creadores -->
-  <div class="content-creator">
-    <h1 class="title">CREADORES</h1>
-    <div class="creators">
-        <div class="listCreator">
-            <div class="imageCreator">
-                <img src="assets/img/Cesar.png" alt="cesar">
-                <p>Cesar Castilla</p>
-            </div>
-            <div class="imageCreator">
-                <img src="assets/img/Hector.png" alt="hector">
-                <p>Hector Renteria</p>
-            </div>
-            <div class="imageCreator">
-                <img src="assets/img/Garcia.png" alt="garcia">
-                <p>Garcia Gabriel</p>
-            </div>
-            <div class="imageCreator">
-                <img src="assets/img/Diego.png" alt="diego">
-                <p>Diego Flores</p>
-            </div>
-            <div class="imageCreator">
-                <img src="assets/img/Fabricio.png" alt="fabricio">
-                <p>Fabricio Morales</p>
-            </div>
+    <!-- contact section -->
+    <div class="contact" id="contact-section">
+      <div class="contact-box">
+        <div class="left"></div>
+        <div class="right">
+          <form>
+            <h2>Contactanos</h2>
+            <input type="text" class="field" placeholder="Nombre:" />
+            <input type="text" class="field" placeholder="Apellido:" />
+            <input type="text" class="field" placeholder="Telefono:" />
+            <input type="email" class="field" placeholder="Correo:" />
+            <textarea placeholder="Mensaje" class="field"></textarea>
+            <button class="bton">Send</button>
+          </form>
         </div>
+      </div>
     </div>
-  </div>
+
+    <!-- Creadores -->
+    <div class="content-creator" id="creators-section">
+      <h1 class="title">CREADORES</h1>
+      <div class="creators">
+        <div class="listCreator">
+          <div class="imageCreator">
+            <img src="assets/img/Cesar.png" alt="cesar" />
+            <p>Cesar Castilla</p>
+          </div>
+          <div class="imageCreator">
+            <img src="assets/img/Hector.png" alt="hector" />
+            <p>Hector Renteria</p>
+          </div>
+          <div class="imageCreator">
+            <img src="assets/img/Garcia.png" alt="garcia" />
+            <p>Garcia Gabriel</p>
+          </div>
+          <div class="imageCreator">
+            <img src="assets/img/Diego.png" alt="diego" />
+            <p>Diego Flores</p>
+          </div>
+          <div class="imageCreator">
+            <img src="assets/img/Fabricio.png" alt="fabricio" />
+            <p>Fabricio Morales</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <!-- Footer -->
   <footer>
@@ -185,8 +207,7 @@
         </div>
       </div>
       <p>UPC 2024-01 . Aplicaciones Web</p>
-    </div>
-  </footer>
+    </footer>
 
     <script src="assets/menu.js"></script>
   </body>
