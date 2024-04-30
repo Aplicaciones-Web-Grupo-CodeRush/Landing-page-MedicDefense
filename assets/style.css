@@ -168,8 +168,10 @@ ul li{
 
 .texto-inicio {
   display: grid;
+  flex: 1 0 20%;
   grid-template-columns: repeat(1, 1fr);
   align-items: center;
+  justify-items:center;
 }
 
 .texto-inicio p {
@@ -189,9 +191,9 @@ ul li{
   padding: 9px 25px;
   background: #f2c6ac;
   border: none;
-  border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  border-radius: 30px;
 }
 .texto-inicio button:hover {
   background-color: #e2f1f8;
