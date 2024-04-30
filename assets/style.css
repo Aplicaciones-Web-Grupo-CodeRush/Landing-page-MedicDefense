@@ -166,7 +166,7 @@ ul li{
   display: flex;
 }
 
-.texto-inicio {
+.texto-inicio p {
   margin: auto;
   padding: 20px;
   background-color: #ac918880;
