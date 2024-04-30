@@ -166,6 +166,13 @@ ul li{
   display: flex;
 }
 
+.texto-inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .texto-inicio p {
   margin: auto;
   padding: 20px;
