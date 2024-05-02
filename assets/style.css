@@ -10,12 +10,17 @@ a {
   text-decoration: none;
 }
 
+.app-link:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
 body {
   background-color: #f2efdc;
   min-width: 400px;
 }
 
-ul li{
+ul li {
   list-style: none;
   font-size: 15px;
   color: gray;
@@ -171,7 +176,7 @@ ul li{
   flex: 1 0 20%;
   grid-template-columns: repeat(1, 1fr);
   align-items: center;
-  justify-items:center;
+  justify-items: center;
 }
 
 .home-text p {
