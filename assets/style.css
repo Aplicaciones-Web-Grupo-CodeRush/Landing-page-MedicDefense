@@ -502,7 +502,7 @@ textarea {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #f29979;
+  background: linear-gradient(to right, #f29979, #584539);
 }
 .atp-title {
   margin: 10px;
@@ -527,6 +527,7 @@ textarea {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(to left, #f2c6ac, #ce9069);
 }
 .att-title {
   margin: 10px;
