@@ -512,6 +512,13 @@ textarea {
   font-size: 30px;
   font-weight: bold;
 }
+.atp-img {
+  margin: 20px;
+}
+
+.atp-img img {
+  width: 100%;
+}
 
 /* About the team */
 
@@ -528,6 +535,14 @@ textarea {
 .att-title p {
   font-size: 30px;
   font-weight: bold;
+}
+
+.att-img {
+  margin: 20px;
+}
+
+.att-img img {
+  width: 100%;
 }
 
 /* Creators */
