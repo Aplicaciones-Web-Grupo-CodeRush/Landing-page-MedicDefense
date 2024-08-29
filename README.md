@@ -1,3 +1,3 @@
 # Landing Page
 
-En este repositorio se encuentra el desarrollo del Landing Page del proyecto MedicDefense. De tal modo, se utilizó HTML, CSS y JavaScript.
+This repository contains the development of the Landing Page for the BiciBreeze project. HTML, CSS and JavaScript were used.
